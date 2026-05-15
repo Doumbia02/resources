@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 750" width="1400" height="750">
+  <defs>
+    <linearGradient id="awsCloudGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7f7f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenhouseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="snsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D93954" />
+      <stop offset="100%" style="stop-color:#B7304A" />
+    </linearGradient>
+    <linearGradient id="sqsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D93954" />
+      <stop offset="100%" style="stop-color:#B7304A" />
+    </linearGradient>
+    <linearGradient id="lambdaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9900" />
+      <stop offset="100%" style="stop-color:#E88B00" />
+    </linearGradient>
+    <linearGradient id="dynamoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#527FFF" />
+      <stop offset="100%" style="stop-color:#4169E1" />
+    </linearGradient>
+    <linearGradient id="apiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E7157B" />
+      <stop offset="100%" style="stop-color:#C41267" />
+    </linearGradient>
+    <linearGradient id="s3Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3F8624" />
+      <stop offset="100%" style="stop-color:#2D6B19" />
+    </linearGradient>
+    <linearGradient id="ec2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9900" />
+      <stop offset="100%" style="stop-color:#E88B00" />
+    </linearGradient>
+    
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+    <marker id="arrowheadOrange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FF9900"/>
+    </marker>
+    <marker id="arrowheadRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D93954"/>
+    </marker>
+    <marker id="arrowheadBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#527FFF"/>
+    </marker>
+    <marker id="arrowheadGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3F8624"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="750" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="700" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#232F3E">
+    Smart GreenHouse IoT Architecture
+  </text>
+  <text x="700" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">
+    Cloud-Based IoT Data Pipeline on AWS
+  </text>
+  
+  <!-- AWS Cloud boundary -->
+  <rect x="320" y="80" width="1060" height="580" rx="10" fill="url(#awsCloudGradient)" stroke="#FF9900" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="340" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF9900">AWS Cloud</text>
+  
+  <!-- GREENHOUSE SECTION -->
+  <g id="greenhouse-section">
+    <rect x="20" y="180" width="260" height="380" rx="15" fill="url(#greenhouseGradient)" stroke="#2E7D32" stroke-width="2" filter="url(#dropShadow)"/>
+    <text x="150" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1B5E20">Smart GreenHouse</text>
+    
+    <!-- Greenhouse structure -->
+    <g transform="translate(70, 230)">
+      <path d="M0,100 L0,30 Q80,-20 160,30 L160,100 Z" fill="none" stroke="#4CAF50" stroke-width="3"/>
+      <line x1="0" y1="100" x2="160" y2="100" stroke="#4CAF50" stroke-width="3"/>
+      <line x1="40" y1="100" x2="40" y2="38" stroke="#81C784" stroke-width="1" stroke-dasharray="4,2"/>
+      <line x1="80" y1="100" x2="80" y2="15" stroke="#81C784" stroke-width="1" stroke-dasharray="4,2"/>
+      <line x1="120" y1="100" x2="120" y2="38" stroke="#81C784" stroke-width="1" stroke-dasharray="4,2"/>
+      <!-- Plants -->
+      <circle cx="45" cy="75" r="12" fill="#66BB6A"/>
+      <circle cx="80" cy="70" r="15" fill="#43A047"/>
+      <circle cx="115" cy="75" r="12" fill="#66BB6A"/>
+      <rect x="40" y="85" width="10" height="15" fill="#8D6E63"/>
+      <rect x="75" y="82" width="10" height="18" fill="#8D6E63"/>
+      <rect x="110" y="85" width="10" height="15" fill="#8D6E63"/>
+    </g>
+    
+    <!-- IoT Sensors Box -->
+    <rect x="40" y="365" width="200" height="175" rx="8" fill="#fff" stroke="#666" stroke-width="1"/>
+    <text x="140" y="388" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">IoT Sensors</text>
+    
+    <!-- Temperature sensor -->
+    <g transform="translate(55, 400)">
+      <rect width="80" height="30" rx="4" fill="#FFEBEE" stroke="#E57373" stroke-width="1"/>
+      <text x="40" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#C62828">Temperature</text>
+    </g>
+    
+    <!-- Humidity sensor -->
+    <g transform="translate(145, 400)">
+      <rect width="80" height="30" rx="4" fill="#E3F2FD" stroke="#64B5F6" stroke-width="1"/>
+      <text x="40" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1565C0">Humidity</text>
+    </g>
+    
+    <!-- Soil Moisture sensor -->
+    <g transform="translate(55, 440)">
+      <rect width="80" height="30" rx="4" fill="#EFEBE9" stroke="#A1887F" stroke-width="1"/>
+      <text x="40" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#5D4037">Soil Moisture</text>
+    </g>
+    
+    <!-- Light sensor -->
+    <g transform="translate(145, 440)">
+      <rect width="80" height="30" rx="4" fill="#FFF8E1" stroke="#FFD54F" stroke-width="1"/>
+      <text x="40" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#F57F17">Light</text>
+    </g>
+    
+    <!-- EC2 Simulator -->
+    <g transform="translate(70, 485)">
+      <rect width="140" height="40" rx="5" fill="url(#ec2Gradient)" filter="url(#dropShadow)"/>
+      <text x="70" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff" font-weight="bold">Amazon EC2</text>
+      <text x="70" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">IoT Simulator</text>
+    </g>
+  </g>
+  
+  <!-- SNS Topic -->
+  <g id="sns" transform="translate(380, 280)">
+    <rect width="120" height="70" rx="8" fill="url(#snsGradient)" filter="url(#dropShadow)"/>
+    <circle cx="60" cy="25" r="15" fill="#fff" fill-opacity="0.2"/>
+    <text x="60" y="30" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">SNS</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff" font-weight="bold">Amazon SNS</text>
+    <text x="60" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">Pub/Sub</text>
+  </g>
+  
+  <!-- SQS Queue -->
+  <g id="sqs" transform="translate(560, 280)">
+    <rect width="120" height="70" rx="8" fill="url(#sqsGradient)" filter="url(#dropShadow)"/>
+    <circle cx="60" cy="25" r="15" fill="#fff" fill-opacity="0.2"/>
+    <text x="60" y="30" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">SQS</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff" font-weight="bold">Amazon SQS</text>
+    <text x="60" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">Message Queue</text>
+  </g>
+  
+  <!-- Lambda Processor -->
+  <g id="lambda-processor" transform="translate(740, 280)">
+    <rect width="130" height="70" rx="8" fill="url(#lambdaGradient)" filter="url(#dropShadow)"/>
+    <circle cx="65" cy="25" r="15" fill="#fff" fill-opacity="0.2"/>
+    <text x="65" y="32" text-anchor="middle" font-size="18" fill="#fff" font-weight="bold">λ</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff" font-weight="bold">AWS Lambda</text>
+    <text x="65" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">Data Processor</text>
+  </g>
+  
+  <!-- DynamoDB -->
+  <g id="dynamodb" transform="translate(930, 280)">
+    <rect width="130" height="70" rx="8" fill="url(#dynamoGradient)" filter="url(#dropShadow)"/>
+    <circle cx="65" cy="25" r="15" fill="#fff" fill-opacity="0.2"/>
+    <text x="65" y="30" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">DB</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff" font-weight="bold">DynamoDB</text>
+    <text x="65" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">Time-Series Data</text>
+  </g>
+  
+  <!-- API Gateway -->
+  <g id="api-gateway" transform="translate(930, 430)">
+    <rect width="130" height="70" rx="8" fill="url(#apiGradient)" filter="url(#dropShadow)"/>
+    <circle cx="65" cy="25" r="15" fill="#fff" fill-opacity="0.2"/>
+    <text x="65" y="30" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">API</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff" font-weight="bold">API Gateway</text>
+    <text x="65" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">REST API</text>
+  </g>
+  
+  <!-- Lambda API -->
+  <g id="lambda-api" transform="translate(740, 430)">
+    <rect width="130" height="70" rx="8" fill="url(#lambdaGradient)" filter="url(#dropShadow)"/>
+    <circle cx="65" cy="25" r="15" fill="#fff" fill-opacity="0.2"/>
+    <text x="65" y="32" text-anchor="middle" font-size="18" fill="#fff" font-weight="bold">λ</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff" font-weight="bold">AWS Lambda</text>
+    <text x="65" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">API Handler</text>
+  </g>
+  
+  <!-- S3 Dashboard -->
+  <g id="s3-dashboard" transform="translate(560, 530)">
+    <rect width="130" height="70" rx="8" fill="url(#s3Gradient)" filter="url(#dropShadow)"/>
+    <circle cx="65" cy="25" r="15" fill="#fff" fill-opacity="0.2"/>
+    <text x="65" y="30" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">S3</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#fff" font-weight="bold">Amazon S3</text>
+    <text x="65" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">Static Website</text>
+  </g>
+  
+  <!-- Dashboard Display -->
+  <g id="dashboard" transform="translate(340, 510)">
+    <rect width="160" height="110" rx="8" fill="#fff" stroke="#333" stroke-width="2" filter="url(#dropShadow)"/>
+    <rect x="5" y="5" width="150" height="20" rx="3" fill="#333"/>
+    <circle cx="15" cy="15" r="4" fill="#FF5F56"/>
+    <circle cx="30" cy="15" r="4" fill="#FFBD2E"/>
+    <circle cx="45" cy="15" r="4" fill="#27CA40"/>
+    <text x="100" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">Dashboard</text>
+    
+    <!-- Mini chart -->
+    <rect x="10" y="30" width="65" height="35" rx="2" fill="#f5f5f5" stroke="#ddd"/>
+    <polyline points="15,55 25,50 35,58 45,45 55,52 65,40" fill="none" stroke="#4CAF50" stroke-width="2"/>
+    <text x="42" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#666">Chart</text>
+    
+    <!-- Mini cards -->
+    <rect x="85" y="30" width="30" height="20" rx="2" fill="#FFEBEE"/>
+    <text x="100" y="44" text-anchor="middle" font-size="10" fill="#C62828">T</text>
+    <rect x="120" y="30" width="30" height="20" rx="2" fill="#E3F2FD"/>
+    <text x="135" y="44" text-anchor="middle" font-size="10" fill="#1565C0">H</text>
+    <rect x="85" y="55" width="30" height="20" rx="2" fill="#EFEBE9"/>
+    <text x="100" y="69" text-anchor="middle" font-size="10" fill="#5D4037">S</text>
+    <rect x="120" y="55" width="30" height="20" rx="2" fill="#FFF8E1"/>
+    <text x="135" y="69" text-anchor="middle" font-size="10" fill="#F57F17">L</text>
+    
+    <!-- User icon -->
+    <circle cx="80" cy="95" r="8" fill="#666"/>
+    <ellipse cx="80" cy="108" rx="12" ry="6" fill="#666"/>
+    <text x="105" y="102" font-family="Arial, sans-serif" font-size="8" fill="#666">User</text>
+  </g>
+  
+  <!-- Email Alerts -->
+  <g id="email-alerts" transform="translate(380, 140)">
+    <rect width="120" height="60" rx="8" fill="#fff" stroke="#D93954" stroke-width="2" filter="url(#dropShadow)"/>
+    <rect x="25" y="12" width="70" height="35" rx="3" fill="#D93954"/>
+    <polygon points="25,12 60,32 95,12" fill="#B7304A"/>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#333">Email Alerts</text>
+  </g>
+  
+  <!-- CloudWatch -->
+  <g id="cloudwatch" transform="translate(1120, 280)">
+    <rect width="120" height="70" rx="8" fill="#fff" stroke="#FF9900" stroke-width="2" filter="url(#dropShadow)"/>
+    <rect x="20" y="12" width="80" height="30" rx="3" fill="#f5f5f5"/>
+    <polyline points="25,35 40,25 55,32 70,20 85,28 95,18" fill="none" stroke="#FF9900" stroke-width="2"/>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">CloudWatch</text>
+    <text x="60" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">Logs</text>
+  </g>
+  
+  <!-- IAM -->
+  <g id="iam" transform="translate(1120, 430)">
+    <rect width="120" height="70" rx="8" fill="#fff" stroke="#DD344C" stroke-width="2" filter="url(#dropShadow)"/>
+    <circle cx="60" cy="25" r="12" fill="#DD344C"/>
+    <rect x="50" y="20" width="20" height="12" fill="#fff"/>
+    <circle cx="60" cy="18" r="4" fill="#DD344C"/>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">IAM</text>
+    <text x="60" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">LabRole</text>
+  </g>
+  
+  <!-- DATA FLOW ARROWS -->
+  <!-- EC2 to SNS -->
+  <path d="M280 505 L350 505 Q370 505 370 485 L370 350 Q370 330 390 330 L378 330" 
+        fill="none" stroke="#FF9900" stroke-width="3" marker-end="url(#arrowheadOrange)"/>
+  <rect x="285" y="488" width="70" height="14" fill="#fff"/>
+  <text x="320" y="499" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#FF9900" font-weight="bold">Sensor Data</text>
+  
+  <!-- SNS to SQS -->
+  <line x1="500" y1="315" x2="558" y2="315" stroke="#D93954" stroke-width="3" marker-end="url(#arrowheadRed)"/>
+  
+  <!-- SNS to Email -->
+  <path d="M440 280 L440 202" fill="none" stroke="#D93954" stroke-width="2" marker-end="url(#arrowheadRed)"/>
+  <text x="455" y="245" font-family="Arial, sans-serif" font-size="8" fill="#D93954">Alerts</text>
+  
+  <!-- SQS to Lambda Processor -->
+  <line x1="680" y1="315" x2="738" y2="315" stroke="#FF9900" stroke-width="3" marker-end="url(#arrowheadOrange)"/>
+  <text x="700" y="305" font-family="Arial, sans-serif" font-size="8" fill="#FF9900">Trigger</text>
+  
+  <!-- Lambda to DynamoDB -->
+  <line x1="870" y1="315" x2="928" y2="315" stroke="#527FFF" stroke-width="3" marker-end="url(#arrowheadBlue)"/>
+  <text x="890" y="305" font-family="Arial, sans-serif" font-size="8" fill="#527FFF">Store</text>
+  
+  <!-- DynamoDB to Lambda API -->
+  <path d="M995 350 L995 390 Q995 410 975 410 L870 430" 
+        fill="none" stroke="#527FFF" stroke-width="2" marker-end="url(#arrowheadBlue)"/>
+  <text x="920" y="398" font-family="Arial, sans-serif" font-size="8" fill="#527FFF">Query</text>
+  
+  <!-- Lambda API to API Gateway -->
+  <line x1="870" y1="465" x2="928" y2="465" stroke="#E7157B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- API Gateway to S3/Dashboard -->
+  <path d="M995 500 L995 545 Q995 565 975 565 L692 565" 
+        fill="none" stroke="#3F8624" stroke-width="2" marker-end="url(#arrowheadGreen)"/>
+  <text x="830" y="555" font-family="Arial, sans-serif" font-size="8" fill="#3F8624">REST API</text>
+  
+  <!-- S3 to Dashboard -->
+  <line x1="560" y1="565" x2="502" y2="565" stroke="#3F8624" stroke-width="2" marker-end="url(#arrowheadGreen)"/>
+  
+  <!-- CloudWatch connections (dotted) -->
+  <line x1="870" y1="300" x2="1118" y2="300" stroke="#FF9900" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="1060" y1="315" x2="1118" y2="315" stroke="#FF9900" stroke-width="1" stroke-dasharray="4,3"/>
+  
+  <!-- LAYER LABELS -->
+  <rect x="355" y="250" width="350" height="115" rx="5" fill="none" stroke="#D93954" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>
+  <text x="530" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#D93954" font-weight="bold">Data Ingestion Layer</text>
+  
+  <rect x="725" y="250" width="160" height="115" rx="5" fill="none" stroke="#FF9900" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>
+  <text x="805" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FF9900" font-weight="bold">Processing</text>
+  
+  <rect x="915" y="250" width="160" height="115" rx="5" fill="none" stroke="#527FFF" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>
+  <text x="995" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#527FFF" font-weight="bold">Storage</text>
+  
+  <rect x="725" y="405" width="350" height="115" rx="5" fill="none" stroke="#E7157B" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>
+  <text x="900" y="423" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E7157B" font-weight="bold">API Layer</text>
+  
+  <!-- LEGEND -->
+  <g id="legend" transform="translate(1100, 550)">
+    <rect width="170" height="100" rx="5" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="85" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">Legend</text>
+    
+    <line x1="15" y1="35" x2="45" y2="35" stroke="#FF9900" stroke-width="2"/>
+    <text x="55" y="38" font-family="Arial, sans-serif" font-size="9" fill="#666">Data Flow</text>
+    
+    <line x1="15" y1="52" x2="45" y2="52" stroke="#D93954" stroke-width="2"/>
+    <text x="55" y="55" font-family="Arial, sans-serif" font-size="9" fill="#666">Messaging</text>
+    
+    <line x1="15" y1="69" x2="45" y2="69" stroke="#527FFF" stroke-width="2"/>
+    <text x="55" y="72" font-family="Arial, sans-serif" font-size="9" fill="#666">Storage</text>
+    
+    <line x1="15" y1="86" x2="45" y2="86" stroke="#666" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="55" y="89" font-family="Arial, sans-serif" font-size="9" fill="#666">Monitoring</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="700" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">
+    Smart GreenHouse IoT Architecture | AWS Academy Lab 9 | 100% Learner Labs Compatible
+  </text>
+  
+  <!-- Service count badge -->
+  <g transform="translate(20, 700)">
+    <rect width="200" height="30" rx="15" fill="#232F3E"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff" font-weight="bold">9 AWS Services Integrated</text>
+  </g>
+</svg>

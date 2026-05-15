@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌱 Smart GreenHouse Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h1>🌱 Smart GreenHouse</h1>
+        <div class="header-controls">
+          <select id="greenhouse-select">
+            <option value="greenhouse-01">Greenhouse 01</option>
+          </select>
+          <span id="last-updated">Last updated: --</span>
+          <button id="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
+        </div>
+      </header>
+
+      <!-- Current Readings Cards -->
+      <section class="current-readings">
+        <div class="card temperature">
+          <div class="card-icon">🌡️</div>
+          <div class="card-content">
+            <h3>Temperature</h3>
+            <div class="card-value" id="current-temp">--</div>
+            <div class="card-unit">°C</div>
+            <div class="card-range" id="temp-range">Min: -- | Max: --</div>
+          </div>
+          <div class="card-status" id="temp-status"></div>
+        </div>
+
+        <div class="card humidity">
+          <div class="card-icon">💧</div>
+          <div class="card-content">
+            <h3>Humidity</h3>
+            <div class="card-value" id="current-humidity">--</div>
+            <div class="card-unit">%</div>
+            <div class="card-range" id="humidity-range">Min: -- | Max: --</div>
+          </div>
+          <div class="card-status" id="humidity-status"></div>
+        </div>
+
+        <div class="card soil">
+          <div class="card-icon">🌍</div>
+          <div class="card-content">
+            <h3>Soil Moisture</h3>
+            <div class="card-value" id="current-soil">--</div>
+            <div class="card-unit">%</div>
+            <div class="card-range" id="soil-range">Min: -- | Max: --</div>
+          </div>
+          <div class="card-status" id="soil-status"></div>
+        </div>
+
+        <div class="card light">
+          <div class="card-icon">☀️</div>
+          <div class="card-content">
+            <h3>Light Intensity</h3>
+            <div class="card-value" id="current-light">--</div>
+            <div class="card-unit">lux</div>
+            <div class="card-range" id="light-range">Min: -- | Max: --</div>
+          </div>
+          <div class="card-status" id="light-status"></div>
+        </div>
+      </section>
+
+      <!-- Charts Section -->
+      <section class="charts-section">
+        <div class="chart-container">
+          <div class="chart-header">
+            <h2>📈 Sensor History</h2>
+            <select id="chart-hours" onchange="updateCharts()">
+              <option value="1">Last 1 Hour</option>
+              <option value="6" selected>Last 6 Hours</option>
+              <option value="12">Last 12 Hours</option>
+              <option value="24">Last 24 Hours</option>
+            </select>
+          </div>
+          <canvas id="sensor-chart"></canvas>
+        </div>
+      </section>
+
+      <!-- Statistics & Alerts -->
+      <section class="stats-alerts">
+        <div class="stats-panel">
+          <h2>📊 24-Hour Statistics</h2>
+          <div class="stats-grid" id="stats-grid">
+            <div class="stat-item">
+              <span class="stat-label">Total Readings</span>
+              <span class="stat-value" id="stat-readings">--</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Alerts Triggered</span>
+              <span class="stat-value" id="stat-alerts">--</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Avg Temperature</span>
+              <span class="stat-value" id="stat-avg-temp">--°C</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Avg Humidity</span>
+              <span class="stat-value" id="stat-avg-humidity">--%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="alerts-panel">
+          <h2>🚨 Recent Alerts</h2>
+          <div class="alerts-list" id="alerts-list">
+            <p class="no-alerts">No recent alerts</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Smart GreenHouse IoT Dashboard | AWS Cloud Lab Project</p>
+        <p id="connection-status">🟢 Connected</p>
+      </footer>
+    </div>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>
