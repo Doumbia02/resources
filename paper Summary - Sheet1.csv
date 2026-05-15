@@ -1,0 +1,409 @@
+,Authors & Year,Publisher,Type,Title ,Domains,Paper Summary,Datasets Name used,"Datasets informations(row,columns, type of data) ",Learning Approaches,Hybrid Approach,Algorithms used,Performance evaluation,Best Algorithm,Key Metrics,Key Innovation,Main Finding,Formula,Study limitations,Type of dataset,Future work proposed
+Credit card: Financial Fraud,"Sulaiman et al., 2024",Iraqi Journal of Science,Review,Credit Card Fraud Detection Challenges and Solutions: A Review,Finance,"This review provides an overview of the most recent research on the detection of fraudulent credit card transactions, focusing on challenges like class imbalance, concept drift, and verification latency using machine learning and deep learning.",European Credit Card Datasets," Various datasets with rows corresponding to transactions and columns representing features like transaction amount, time, and labels (fraud or not).European dataset: 284,807 transactions, 492 frauds (0.172%);","Machine Learning ,Deep Learning",yes,"Random Forest, Support Vector Machines, Logistic Regression, Decision Trees, Autoencoders, LSTM",,Random Forest and Autoencoders,"Accuracy, Precision, F1 Score, AUC","Hybrid preprocessing techniques, such as combining oversampling and undersampling methods", Extensive studies on class imbalance and concept drift; proposed solutions include hybrid sampling techniques and advanced machine learning algorithms.,,,Public,
+,"Óscar Martínez, Patricia Sánchez, Elena Alcaraz (2025)",Universidad de La Laguna,Systematic Litterature Review,"A Review of Machine Learning and Deep Learning
+Approaches for Fraud Detection Across Financial and
+Supply Chain Domains","Finance  Fraud Detection , Supply Chain Domains","This systematic review examines the state-of-the-art machine learning , deep learning  ensemble tech
+niques, semi-supervised learning, and emerging paradigms.approaches for fraud detection across financial and supply chain domains, covering research published between 2015 and 2025. to  identifies
+key challenges including extreme class imbalance, concept drift, interpretability
+requirements, and real-time processing constraints.","European Credit Card Dataset, IEEE-CIS Dataset,Synthetic Financial Datasets (PaySim, BankSim), DataCo Smart Supply Chain Dataset","European dataset: 284,807 transactions, 492 frauds (0.172%); IEEE-CIS:  590,540 transactions (train), 506,691 (test) ;Synthetic Financial : 6.3 million transactions; DataCo: 180,519 orders.","Machine Learning , Deep Learning",Yes,"Logistic Regression, Decision Trees, Random Forest, Support Vector Machines, XGBoost, LightGBM, LSTM, Autoencoders, GANs, GNNs",,"Random Forest, XGBoost,LSTM, Autoencoder","AUC-ROC ranges from 0.90 to 0.98, F1-scores of 0.817 with limited labels in semi-supervised contexts.",Ensemble methods dominate; two-phase approaches effectively address label scarcity.,"Ensemble methods and tree-based models consistently achieve superior performance in credit card fraud detection, while semi-supervised approaches show promise for supply chain applications.",,,,
+,"Shidawa Baba Atiku (2025)
+Achi Aaron Unimke (2025)",International Journal of Applied Science and Research (IJASR),literature review + experimental evaluation   ,Machine Learning Approach to Detection of Credit Card Fraud,Financial Technology,"The paper investigates machine learning and deep learning techniques for detecting credit card fraud in online and offline transactions. It combines a thematic literature review with experimental analysis using WEKA. Various supervised, unsupervised, and hybrid ML models are examined, highlighting challenges such as class imbalance, concept drift, real-time detection, and dataset limitations. The study advocates transitioning toward hybrid ML–DL models to improve robustness and adaptability of fraud detection systems.",,,Machine Learning,Yes,"Machine Learning: K-Nearest Neighbors (KNN),Support Vector Machine (SVM),Artificial Neural Network (ANN),Logistic Regression (LR),,Random Forest (RF),Decision Trees (DT),Naïve Bayes (NB),Fuzzy Logic,Ensemble Learning,            Deep Learning:LSTM, GRU, CNN,Autoencoder (AE), Restricted Boltzmann Machine (RBM),Deep Neural Networks (DNN), BiLSTM, BiGRU",,"Random Forest (among classical ML)
+LSTM-based Deep Learning models (among DL approaches)
+Stacking / Ensemble classifiers","Accuracy
+Precision
+Recall / Sensitivity
+Specificity
+AUC
+MCC","Strong emphasis on hybrid ML–DL models
+Comprehensive comparative analysis of ML vs DL
+Advocacy for sequence-based fraud detection using temporal models (LSTM/GRU)
+Focus on class imbalance handling and real-time fraud detection","Traditional ML models work well but struggle with imbalance and evolving fraud patterns
+Deep learning models outperform ML on large, complex, and sequential datasets
+Hybrid and ensemble approaches provide the most robust performance
+LSTM-based models are especially effective for transaction sequence modeling",,"Lack of publicly available high-quality datasets
+Severe class imbalance
+High computational cost for DL models
+Concept drift and evolving fraud patterns
+Limited real-time deployment discussion",,"Development of hybrid ML–DL models
+Improved handling of imbalanced datasets
+Real-time fraud detection systems
+Use of behavioral and temporal features
+Scalable, cloud-based fraud detection frameworks"
+,"Suvasini Panigrahi, Venkata Lakshmi Narayana Gorle (2025)",Springer Science+Business Media,Review,Applications of Machine Learning and Deep Learning Algorithms in Financial Fraud Detection: A Review,Finance,"This paper reviews the application of ML and DL techniques in detecting financial fraud, emphasizing their capabilities, limitations, and future directions.",,N/A,"Machine Learning,Deep Learning
+",Yes,"Random Forest, Support Vector Machine, Convolutional Neural Networks, LSTM, XGBoost","Accuracy, Precision, Sensitivity (Recall), Specificity, False Positive Rate (FP) , False Negative Rate (FN), AUC (Area Under Curve), Matthews Correlation Coefficient (MCC), Cost-based evaluation",N/A,"Accuracy of up to 99.99%, Specificity, Precision, Recall metrics discussed.",Use of XAI methods and metaheuristic-based AI for fraud detection.,"ML and DL significantly enhance fraud detection capabilities, with deep learning outperforming traditional methods.",,,,
+,"Ali, A.; Abd Razak, S.; Al-Dhaqm, A.; Nasser, M.; Othman, S.H.; Eisa, T.A.E.; Elhassan, T.; Elshafie, H.; Saif, A. (2022)",MDPI – Applied Sciences Journal,Systematic Literature Review (SLR),Financial Fraud Detection Based on Machine Learning: A Systematic Literature Review,Financial Fraud Detection,"This paper presents a systematic literature review (SLR) of machine-learning-based approaches for financial fraud detection. Using the Kitchenham SLR methodology, the authors reviewed studies published between 2010 and 2021. After applying inclusion, exclusion, and quality assessment criteria, 93 peer-reviewed studies were analyzed. The review identifies the most common fraud categories, datasets, machine learning algorithms, and evaluation metrics used in financial fraud detection. The study concludes that Support Vector Machine (SVM) and Artificial Neural Networks (ANN) are the most widely used algorithms, while credit card fraud is the most frequently studied fraud type. The paper highlights existing research gaps and proposes directions for future work.",,,Machine Learning,Yes,"Support Vector Machine (SVM), Artificial Neural Network (ANN), Hidden Markov Model (HMM), K-Nearest Neighbors (KNN), Decision Tree (DT), Random Forest (RF), Logistic Regression, Naïve Bayes, Fuzzy Logic, Genetic Algorithm, Deep Learning","Accuracy
+Precision
+Recall
+F-Measure
+ROC / AUC
+False Positive Rate
+Detection Rate",SVM and ANN reported as most frequently used and effective across studies,"Accuracy
+Precision
+Recall
+F1-Score
+False Positive Rate
+ROC-AUC","Comprehensive SLR covering multiple financial fraud domains, not limited to credit card fraud
+Systematic comparison of ML algorithms, datasets, fraud types, and evaluation metrics
+Identification of research gaps related to datasets, imbalance issues, and real-world deployment","Machine learning techniques are effective for financial fraud detection, with SVM and ANN being the most popular approaches. Credit card fraud dominates the literature, while other fraud domains such as insurance, healthcare, and financial statement fraud remain underexplored.",,"Dependence on existing published studies
+Lack of real-time industrial validation
+Imbalanced datasets remain a major challenge
+Limited availability of public financial fraud datasets",,"Development of benchmark datasets
+Exploration of deep learning and ensemble models
+Real-time fraud detection systems
+Addressing class imbalance problems
+Expansion to under-studied fraud domains"
+,"Teguh Wahyono, Felix David (2025)",Journal of System and Management Sciences,Systematic Litterature Review,"A Systematic Review of Machine Learning-Based Approaches for 
+Financial Fraud Detection",Financial Fraud Detection,"This systematic literature review 
+comprehensively synthesizes 51 recent studies on ML based fraud analysis in finance 
+spanning supervised, unsupervised and reinforcement learning approaches. to answers this questions:  what types of financial fraud cases can be handled 
+through machine learning approaches, which machine learning algorithms are effective for financial 
+fraud detection, what strategies or optimizations can be employed to enhance accuracy in financial fraud 
+detection, and what are the research gaps, trends, and future directions in this area of study.",No dataset provided,N/A,Machine Learning,No,"Random Forest ,Support Vector Machine,Logistic Regression ,Hidden Markov Model  
+Isolation Forest",N/A,"Random Forest, Hidden Markov Model,Isolation Forest
+",No metrics reported,"Findings reveal 
+favored algorithms like random forests and key strategies around handling class imbalance, 
+feature selection, model ensembles ."," Supervised methods dominate 
+current literature, especially random forests, but unsupervised and reinforcement learning approaches 
+exhibit untapped potential. Strategies like data balancing, feature engineering, hyperparameter tuning 
+prove consistent accuracy improvements.",N/A," to address the challenges associated with this class imbalance.  interpretability and explainability concerning fraud detection in 
+the financial sector is required .distinguishing between suspicious transactions and anomalies that are not fraudulent",N/A,"Some of the research recommendations include addressing class imbalance in datasets, 
+investigating interpretability and explainability, particularly in the context of fraud detection in the 
+financial sector, and exploring the possibility of combining unsupervised and supervised learning 
+methods to improve accuracy and effectiveness in fraud detection."
+,"Manali Kulkarnia, Grantej Otarib, Sameer Patilc, Tanaji Patild, Mahesh Salunkhee (2025)",AIP , Review,"Credit card fraud detection using machine learning
+algorithms: A review",Finance,This paper are using a ML algorithm such as  OLightGBM ,European Credit Card Datasets,,Machine  Learning,No,N/A,,N/A,N/A,"Using Reinforcement Learning  and This survey consolidates an informed outlook to guide this interdisciplinary 
+mission towards secure and trustworthy financial ecosystems. ",Radom forest is the best algorithm,,,,
+,"Hafez, I. Y., Hafez, A. Y., Saleh, A., Abd El-Mageed, A. A., & Abohany, A. A. (2025)",Journal of Big Data (Springer Nature),Survey / Systematic Review,A systematic review of AI-enhanced techniques in credit card fraud detection,Financial Fraud Detection,"This paper presents a systematic review of AI-enhanced techniques for credit card fraud detection, focusing on machine learning (ML), deep learning (DL), and meta-heuristic optimization (MHO) approaches. It analyzes more than thirty studies published between 2019 and 2024, comparing methodologies, datasets, algorithms, and performance metrics. The study highlights strengths, weaknesses, and limitations of existing approaches and emphasizes the need for continuously adaptive AI models to address evolving fraud patterns.","Kaggle Credit Card Fraud Dataset
+
+European Credit Card Dataset (ULB ML Group)
+
+Mastercard European Transaction Dataset
+
+Lending Club Transaction Dataset
+
+Financial Institution Proprietary Datasets",,"machine Learning,Deep Learning
+",Yes,"Logistic Regression (LR), Naive Bayes (NB), Decision Tree (DT), Random Forest (RF), Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Artificial Neural Networks (ANN), Multi-Layer Perceptron (MLP), XGBoost, Gradient Boosting, Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Autoencoders (AE), Genetic Algorithm (GA), Particle Swarm Optimization (PSO), Firefly Algorithm, Fuzzy Logic, Isolation Forest",Comparative evaluation based on experimental results reported in the reviewed studies,,"Accuracy, Precision, Recall, F1-Score, Specificity, Sensitivity, False Positive Rate","A comprehensive, up-to-date systematic review integrating ML, DL, and MHO techniques for credit card fraud detection, with structured comparative tables and critical analysis of datasets, methodologies, and performance gaps.","AI-based fraud detection systems significantly outperform traditional rule-based methods, but challenges such as data imbalance, concept drift, computational cost, and lack of real-time adaptability remain unresolved.",,"Dependence on existing published studies
+
+Lack of unified benchmarking framework
+
+Variability in datasets, metrics, and experimental settings
+
+Limited discussion on real-time deployment costs",,"Development of adaptive and real-time fraud detection systems
+
+Integration of hybrid ML-DL-MHO models
+
+Improved handling of concept drift and data imbalance
+
+Exploration of cost-sensitive and explainable AI models"
+,"Ludivia Hernandez Aros
+Fernando Gutierrez-Portela
+ Luisa Ximena Bustamante Molano
+2, John Johver Moreno Hernandez
+
+Mario Samuel Rodríguez Barrero(2023)
+
+",, Litterature Review,"Financial fraud detection through the application of
+machine learning techniques: a literature review",Finance,,,,,,OLightGBM ,,OLightGBM ," F-1 Score, Accuracy, AUC, 
+and Precision",,,,,,
+Fintech and Online payment: E-commerce /  Financial Fraud,Abed Mutemi and Fernando Bacao (2024),Big Data Mining and Analytics,Systematic Litterature Review,"E-Commerce Fraud Detection Based on Machine Learning
+Techniques: Systematic Literature Review",E-Commerce,"This study reviews the application of machine learning techniques in fraud detection within e-commerce, identifying key trends, gaps, and future research opportunities.","
+ 101 publications from various sources",Data from e-commerce platforms like eBay and Facebook,"Machine Learning, Data Mining",No,"Artificial Neural Networks, Random Forest, Logistic Regression",,,,The study highlights the increasing use of ANNs in detecting e-commerce fraud,Focus on machine learning and data mining techniques reveals a gap in addressing reseller fraud and emerging fraud types like triangulation and bot fraud,,,,
+,"Himangshu Paul, Alexander Nikolaev (2021)",Springer Science + Business Media LLC (Springer Nature),Systematic Literature Review (SLR),Fake review detection on online E-commerce platforms: a systematic literature review,E-commerce,"This paper provides a systematic literature review (SLR) of Fake Review Detection (FRD) on online e-commerce platforms. It analyzes the evolution of research approaches used to detect deceptive and manipulated online reviews. The authors categorize fake review detection methods based on different types of “footprints” left by spammers (content, writing style, behavior, networks, ratings, and collusion). The paper also discusses why current approaches and regulations have had limited success and proposes future directions, including decentralized and user-empowered review systems.",,,"Machine Learning, Deep Learning",Yes,"Logistic Regression, Naïve Bayes, Support Vector Machine (SVM), Decision Trees, Random Forest, Boosting methods, Topic Models (LDA, hierarchical LDA), Neural Networks (RNN, CNN), Generative Adversarial Networks (GANs), Co-training, Positive and Unlabeled (PU) Learning, EM Algorithm","Accuracy, Precision, Recall, F1-score, AUC",No single best algorithm is identified due to domain variability and dataset dependency.,"Precision, Recall, F-measure, AUC","Comprehensive and systematic classification of fake review detection approaches
+Chronological evolution of FRD techniques
+Distinction between fake-review detection and fake-reviewer detection
+Emphasis on behavioral and collusion-based spamming
+Identification of gaps and limitations in current FRD research","Despite extensive research, fake review detection remains an unsolved problem due to lack of ground truth, adaptive spammers, and increasingly sophisticated fake review generation methods.",,"No experimental validation
+Relies on existing published studies
+No unified benchmark or dataset
+Cannot quantify real-world effectiveness of reviewed approaches",,"Decentralized and user-empowered review systems
+Trust-based review aggregation
+Better ground-truth dataset construction
+Cross-domain and adaptive detection models
+Combining technical detection with platform-level policy enforcement"
+,"Reena More, Pankaj Dashore (2025)",AIP Conference Proceedings,Systematic Review + Proposed Methodology,Securing Digital Transactions: An Enhanced Deep Learning Approach for Online Payment Fraud Detection,Online payment,"This paper presents a comprehensive systematic review of machine learning and deep learning techniques for online payment fraud detection and proposes a novel transformer-enhanced deep learning methodology. It analyzes supervised, unsupervised, semi-supervised, and hybrid fraud detection models, highlighting their strengths and limitations. The study addresses major challenges such as data imbalance, scalability, real-time detection, evolving fraud patterns, interpretability, and privacy. A Transformer-Enhanced CNN combined with HRNN and optimized using Differential Evolution is proposed to improve accuracy, adaptability, and real-time performance in online payment fraud detection systems.","Public datasets (e.g., Kaggle, IEEE, PeerJ referenced datasets)","Rows: Large-scale (thousands to millions of transactions)
+
+Columns: Transaction amount, time, frequency, user behavior, location, device info
+
+Class Labels: Fraud / Legitimate
+
+Imbalance: Highly imbalanced datasets","Machine Learning, Deep Learning, Ensemble Learning",Yes,"Logistic Regression (LR), Decision Tree (DT), Random Forest (RF), Support Vector Machine (SVM), 
+k-Nearest Neighbors (KNN), Gradient Boosting, XGBoost",,,,,,,,,
+,"Md Zahin Hossain George
+Md Khorshed Alam
+Md Tarek Hasan
+Year: 2023",ASRC Procedia: Global Perspectives in Science and Scholarship,Systematic Literature Review (SLR),Machine Learning for Fraud Detection in Digital Banking: A Systematic Literature Review,Financial Fraud Detection,"This paper presents a systematic literature review of 118 peer-reviewed studies and institutional reports examining the application of machine learning techniques for fraud detection in digital banking. Following PRISMA guidelines, the study synthesizes supervised, unsupervised, deep learning, and hybrid approaches used to detect fraud in highly imbalanced financial transaction datasets. The review highlights the dominance of supervised learning due to interpretability, the growing importance of anomaly detection for novel fraud patterns, and the emergence of deep learning models (RNNs, CNNs, GNNs) for sequential and graph-based transaction analysis. It also emphasizes the role of evaluation metrics (precision, recall, F1-score, PR-AUC) and explainability tools (SHAP, LIME) in regulated banking environments. Cross-regional analysis reveals differences in regulatory influence across the EU, North America, and emerging economies. Persistent challenges include data imbalance, interpretability, real-time deployment constraints, reproducibility, and robustness under concept drift.",,,"Machine Learning, Deep Learning",Yes,"Supervised: Decision Trees, Logistic Regression, Support Vector Machines (SVM), Random Forest, Gradient Boosting
+Unsupervised: K-Means, DBSCAN, Isolation-based anomaly detection, Gaussian,Mixture Models, Self-Organizing Maps
+Deep Learning: Artificial Neural Networks, RNN, LSTM, GRU, CNN, Autoencoders, Variational Autoencoders (VAE), Graph Neural Networks (GNN) ","Precision
+Recall
+F1-score
+ROC-AUC
+PR-AUC
+Cost-sensitive evaluation","Supervised models are most widely adopted
+Deep learning and hybrid models","Precision
+Recall
+F1-score
+PR-AUC","Large-scale SLR covering 118 studies
+Integration of deep learning, hybrid models, and explainability frameworks
+Cross-regional regulatory comparison (EU, North America, emerging economies)
+Strong focus on operational deployment and governance","Supervised learning remains dominant due to interpretability
+Unsupervised methods are essential for novel fraud detection
+Deep learning excels in sequential and graph-based transaction modeling
+Hybrid approaches provide the best balance of accuracy and adaptability",,"No experimental implementation
+Dependence on secondary studies
+Lack of standardized datasets and benchmarks
+Limited reproducibility due to proprietary data",,"Improved reproducibility and open benchmarks
+Robustness to concept drift and adversarial fraud
+Deeper integration of explainability with governance
+Greater use of hybrid and graph-based models
+Stronger theoretical grounding (criminology + ML)"
+,"Teguh Wahyono, Felix David — 2025",Journal of System and Management Sciences,Systematic Literature Review (SLR),A Systematic Review of Machine Learning-Based Approaches for Financial Fraud Detection,"Financial Fraud Detection
+","This paper presents a systematic literature review of 51 peer-reviewed studies published between 2018 and 2023 that apply machine learning techniques to financial fraud detection. It analyzes supervised, unsupervised, hybrid, and reinforcement learning approaches, identifying dominant algorithms, optimization strategies, fraud domains, and evaluation practices. The study highlights Random Forest as the most commonly used supervised algorithm, emphasizes challenges such as class imbalance, data transparency, and model interpretability, and outlines future research directions including hybrid models, reinforcement learning, and standardized evaluation metrics.",,,Machine Learning,Yes,"Supervised Algorithms
+Random Forest
+Support Vector Machine (SVM)
+Logistic Regression
+Neural Networks
+LSTM
+Gradient Boosting
+CNN / DCNN
+CatBoost
+K-Nearest Neighbor
+Unsupervised Algorithms
+Isolation Forest
+Hidden Markov Model
+K-Means Clustering
+Self-Organizing Maps
+Restricted Boltzmann Machine
+Spectral Clustering
+Reinforcement Learning
+Deep Q-Learning
+Offline Reinforcement Learning","Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC
+Cross-validation
+Confusion Matrix",Random Forest,"Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC","Comprehensive mapping of ML techniques across multiple financial fraud domains
+Identification of dominant algorithms and optimization strategies
+Highlighting gaps in interpretability, transparency, and evaluation standards
+Inclusion of reinforcement learning as an emerging direction","Supervised learning dominates financial fraud detection research
+Random Forest is the most widely used and effective algorithm
+Class imbalance is the most common challenge
+Unsupervised and reinforcement learning remain underexplored
+Interpretability and data transparency are major limitations in current research",,"Relies on secondary literature, not experimental validation
+Limited transparency in datasets used by reviewed studies
+Lack of standardized evaluation metrics across studies
+Interpretability issues in complex ML and deep learning models",,"Addressing class imbalance using advanced sampling techniques (e.g., SMOTE)
+Improving interpretability and explainability of ML models
+Exploring hybrid supervised–unsupervised approaches
+Expanding reinforcement learning for adaptive fraud detection
+Developing standardized evaluation frameworks
+Balancing fraud detection accuracy with privacy preservation"
+,"Elena-Adriana Minastireanu, Gabriela Meșniță — 2019","Informatica Economică Journal
+",Systematic Literature Review / Survey Paper,An Analysis of the Most Used Machine Learning Algorithms for Online Fraud Detection,Online Fraud Detection,"This paper presents a systematic quantitative literature review of machine-learning algorithms used for online fraud detection, with a focus on banking and online transactions. The authors analyze peer-reviewed journal and conference papers published between 2010–2019, classifying algorithms based on three key criteria: accuracy, fraud coverage, and cost efficiency. A hierarchical typology of supervised and unsupervised learning techniques is proposed. The study concludes that supervised learning algorithms, particularly SVM, ANN, and Decision Tree, provide the best performance for online fraud detection, albeit at higher computational costs.","Online banking transactions
+Credit card transactions
+E-commerce transaction data,Real-world financial datasets",,Machine Learning,No,"Artificial Neural Network (ANN)
+Support Vector Machine (SVM)
+Decision Tree (DT)
+Bayesian Network
+Logistic Regression
+Naïve Bayes
+Random Forest
+K-Nearest Neighbor (KNN)
+Hidden Markov Model (HMM)
+Genetic Algorithm (GA)
+Self-Organizing Map (SOM)
+DBSCAN
+Artificial Immune System (AIS)
+Fuzzy Logic Based Systems","Accuracy
+Coverage (Detection Rate)
+Cost Efficiency
+Confusion Matrix-based metrics",Support Vector Machine (SVM),,"Proposes a new classification framework combining:
+Accuracy
+Fraud coverage
+Cost efficiency
+Provides hierarchical typology of ML algorithms
+Large-scale quantitative literature comparison (2010–2019)","Supervised learning algorithms outperform unsupervised ones
+SVM, ANN, and Decision Tree achieve best accuracy and coverage
+High performance comes at higher computational cost
+Credit card fraud dominates online fraud research
+Dataset imbalance is a major challenge in fraud detection",,,,
+,"Rahayu Damayanti, Zaldy Adrianto — 2023","Jurnal Riset Akuntansi dan Bisnis Airlangga
+(Universitas Airlangga)",Systematic Literature Review (SLR),Machine Learning for E-Commerce Fraud Detection,E-commerce,"This study conducts a systematic literature review (SLR) to analyze the effectiveness, challenges, and best-performing machine learning algorithms for detecting fraud in e-commerce. The authors reviewed 29 peer-reviewed journal articles published between 2012 and 2022, sourced from ScienceDirect, Emerald, Wiley, and Springer. The findings show that machine learning significantly improves fraud detection accuracy in e-commerce environments. However, challenges such as data quality, data imbalance, model drift, and cost factors remain major obstacles. Among machine learning models, Random Forest consistently demonstrates the best performance, especially in terms of accuracy.",,,Machine Learning,Yes,"Random Forest
+Decision Tree
+Logistic Regression
+Naïve Bayes
+Neural Networks
+Support Vector Machine (SVM)
+AdaBoost
+Gradient-based methods
+Ensemble learning methods","Accuracy
+Precision
+Recall
+F1-Score
+False Positive Rate
+True Positive Rate",Random Forest,"Accuracy (most dominant)
+Recall
+Precision
+F1-Score","First comprehensive SLR focusing specifically on e-commerce fraud detection using machine learning
+Identification of dominant ML algorithms and evaluation metrics
+Mapping challenges and limitations across 10 years of studies","Machine learning significantly improves e-commerce fraud detection
+Accuracy is the most frequently reported effectiveness indicator
+Data quality and imbalance are the biggest challenges
+Random Forest consistently outperforms other models
+Combining ML models may further improve fraud detection","No use of real transaction datasets
+Depends on availability and quality of prior studies
+Possible publication bias
+Fraud patterns may have evolved beyond 2022 data
+Commercial fraud detection systems not analyzed","No use of real transaction datasets
+Depends on availability and quality of prior studies
+Possible publication bias
+Fraud patterns may have evolved beyond 2022 data
+Commercial fraud detection systems not analyzed",,"Real-time fraud detection systems
+Meta-analysis using quantitative methods
+Use of additional databases
+Improving interpretability of ML models
+Addressing privacy and confidentiality issues
+Hybrid and ensemble ML approaches"
+,"BADR OMAIR ,AND AHMAD ALTURKI",," SYSTEMATIC LITERATURE 
+REVIEW (SLR)","A Systematic Literature Review of
+Fraud Detection Metrics in
+Business Processes",Bussiness,,,,,,,,,,,,,,,
+,"Yisong Chen, Chuqing Zhao, Yixin Xu, Chuanhao Nie (2025)",,Systematic Literature Review,"Year-over-Year Developments in Financial Fraud Detection via Deep
+Learning: A Systematic Literature Review",Financial,,,,,,,,,,,,,,,
+,"Dawei Cheng,Yao Zou,Sheng Xiang, Changjun Jiang (2024 )",,Review,Graph Neural Networks for Financial Fraud Detection: A Review,Financial,,,,,,,,,,,,,,,
+,"Antonis Papasavva,Shane Johnson,Ed Lowther,Samantha Lundrigan,Enrico Mariconti,Anna
+Markovska and  Nilufer Tuptuk",,Systematic Literature Review,"Application of AI-based Models for Online Fraud
+Detection and Analysis",Online Fraud Detection,,,,,,,,,,,,,,,
+,"Ms. Vibhuti Talreja, V. Sanjay Kumar, Vignesh S, Sujith Pandi.T",,,"Fraud Detection in E-Commerce: 
+A Systematic Review of 
+Transaction Risk Prevention",Financial ,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Accounting fraud: Business Fraud,Badr Omair; Ahmad Alturki (2020),IEEE Access (Institute of Electrical and Electronics Engineers – IEEE),Systematic Literature Review (SLR),A Systematic Literature Review of Fraud Detection Metrics in Business Processes,Business Process Management,"This paper presents a systematic literature review focusing on fraud detection metrics within business processes, specifically process-based fraud (PBF), which involves deviations from standard operating procedures. Using qualitative content analysis and PRISMA-like methodology, the authors analyze 75–76 studies to assess existing fraud detection metrics and their coverage of business process perspectives. The study identifies major gaps in current metrics, particularly their insufficient theoretical validation and limited coverage of business process components, perspectives, and presentation layers. The paper proposes a conceptual foundation for improving PBF detection metrics.",,,Machine Learning,Yes,"Process mining algorithms
+Association Rule Learning (ARL)
+Fuzzy Logic
+Classification models
+Clustering
+Regression
+Outlier detection
+Rule-based expert systems","Accuracy
+Precision
+Recall
+False alarm rate
+Fraud detection effectiveness (qualitative comparison)",,,"First systematic literature review dedicated specifically to fraud detection metrics in business processes
+Identification of conceptual gaps in existing PBF detection metrics
+Integration of BPM perspectives, process ingredients, auditing needs, and presentation layers into fraud detection analysis","Although many fraud detection metrics exist (e.g., red flags), very few focus explicitly on process-based fraud. Existing PBF metrics are limited in number, weakly validated, and fail to cover essential business process perspectives. Effective fraud detection in organizations requires tighter integration between fraud risk management and business process management.",,"No empirical validation or real-world case study
+Reliance on secondary literature only
+Lack of quantitative comparison of metrics
+Absence of real-time or automated implementation",,"Extend existing PBF detection metrics
+Empirically validate metrics in real business contexts
+Conduct case studies in specific industries
+Integrate metrics into automated fraud detection systems
+Evaluate effectiveness of metrics against common fraud risks"
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Expense reimbursement fraud: Business Fraud,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Tax fraud: Government Fraud,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+medical billing: Healthcare Fraud,,,,"Healthcare Fraud Detection Using Machine Learning 
+Techniques: A Review ",,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,"Systematic Literature Review Structure
+
+1. Title
+
+Clearly state the topic and scope of the review.
+
+2. Abstract
+
+A summary of the review, including the objective, methods, results, and conclusions.
+
+3. Introduction
+
+Background: Introduce the topic and explain its significance.
+Objective: Clearly state the research question(s) or hypothesis.
+Scope: Define the boundaries of the review.
+
+4. Methodology
+
+Search Strategy:
+Databases searched (e.g., PubMed, Scopus).
+Keywords and search terms.
+Time frame of the literature included.
+Inclusion and Exclusion Criteria:
+Define the criteria for including or excluding studies.
+Data Extraction:
+Methods for extracting data (e.g., a standardized form).
+Quality Assessment:
+Tools used to assess the quality of the included studies (e.g., Cochrane risk-of-bias tool).
+Data Synthesis:
+Describe how data will be analyzed (qualitative or quantitative synthesis).
+
+5. Results
+
+Study Selection:
+Flowchart (e.g., PRISMA flow diagram) showing the selection process.
+Study Characteristics:
+Summary table of included studies (authors, year, design, population, findings).
+Quality Assessment Results:
+Summary of the quality assessment of the studies assessed.
+
+6. Discussion
+
+Summary of Findings:
+A narrative synthesis of key findings.
+Comparison with Other Reviews:
+Discuss how your findings relate to existing literature.
+Implications:
+Theoretical and practical implications of the findings.
+Limitations:
+Discuss any limitations of the review process and included studies.
+
+
+7. Conclusion
+
+Recap the major findings and their relevance.
+Provide recommendations for future research.
+
+8. References
+
+List all sources cited, formatted according to a specific citation style (e.g., APA, MLA).
+
+9. Appendices (if necessary)
+
+Additional material that supports the review, such as search strategies or additional tables.
+Notes
+
+PRISMA Guidelines: Consider following the PRISMA guidelines for systematic reviews and meta-analyses, which provide a clear checklist for reporting.
+Collaboration: It’s beneficial to involve co-authors in the review process for comprehensive coverage and insight.
+This structured approach will help ensure that your systematic literature review is comprehensive and methodologically sound.",,https://share.google/58FO80zuhg46rSEP8,,,,,,,,,,,,,,,,

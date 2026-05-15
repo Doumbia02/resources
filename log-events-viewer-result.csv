@@ -1,0 +1,401 @@
+timestamp,message,logStreamName
+1770026147151,"INIT_START Runtime Version: python:3.12.v102	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e7b9763d75065b03bd2f1c073b67ce436566c24009faa1c13d7389d7ba98f259
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147636,"START RequestId: a5d4d8dc-d153-566d-917a-b926a7b1cc52 Version: $LATEST
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147637,"Processing 10 records
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147795,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147832,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147855,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147872,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147892,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147932,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147952,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026147972,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026148012,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026148037,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026148037,"Processing complete: {'processed': 0, 'failed': 10, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026148053,"END RequestId: a5d4d8dc-d153-566d-917a-b926a7b1cc52
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026148053,"REPORT RequestId: a5d4d8dc-d153-566d-917a-b926a7b1cc52	Duration: 416.51 ms	Billed Duration: 898 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	Init Duration: 480.68 ms	
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167004,"START RequestId: 7ba54442-1ecf-5507-af1f-25b8682d4492 Version: $LATEST
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167005,"Processing 3 records
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167014,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167122,"INIT_START Runtime Version: python:3.12.v102	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e7b9763d75065b03bd2f1c073b67ce436566c24009faa1c13d7389d7ba98f259
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167134,"Alert notification sent: 1 alerts
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167135,"DynamoDB error: Float types are not supported. Use Decimal types instead.
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167150,"INIT_START Runtime Version: python:3.12.v102	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e7b9763d75065b03bd2f1c073b67ce436566c24009faa1c13d7389d7ba98f259
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167152,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167152,"Processing complete: {'processed': 0, 'failed': 3, 'alerts_triggered': 1}
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167164,"INIT_START Runtime Version: python:3.12.v102	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e7b9763d75065b03bd2f1c073b67ce436566c24009faa1c13d7389d7ba98f259
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167172,"END RequestId: 7ba54442-1ecf-5507-af1f-25b8682d4492
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167172,"REPORT RequestId: 7ba54442-1ecf-5507-af1f-25b8682d4492	Duration: 167.40 ms	Billed Duration: 168 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167600,"START RequestId: 21f7ffe7-2181-5da7-88e6-9e1d57632a7f Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167601,"Processing 7 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167601,"START RequestId: f4b32d04-93a5-5135-ae0d-4cfee547a511 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167601,"Processing 5 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167602,"START RequestId: bdf5663f-a114-5c44-86be-07c5d7f6f67b Version: $LATEST
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167603,"Processing 1 records
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167613,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167613,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167615,"END RequestId: bdf5663f-a114-5c44-86be-07c5d7f6f67b
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167615,"REPORT RequestId: bdf5663f-a114-5c44-86be-07c5d7f6f67b	Duration: 12.22 ms	Billed Duration: 13 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]d19d785563294094b1d00a2524a789ec
+1770026167651,"START RequestId: 98a4b1ad-2a9c-5039-b092-d0575c7e52fa Version: $LATEST
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167652,"Processing 9 records
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167710,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167723,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167743,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167763,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167768,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167783,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167801,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167803,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167810,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167814,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167821,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167822,"Processing complete: {'processed': 0, 'failed': 7, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167824,"END RequestId: 21f7ffe7-2181-5da7-88e6-9e1d57632a7f
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167824,"REPORT RequestId: 21f7ffe7-2181-5da7-88e6-9e1d57632a7f	Duration: 224.13 ms	Billed Duration: 672 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	Init Duration: 446.92 ms	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026167841,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167851,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167861,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167861,"Processing complete: {'processed': 0, 'failed': 5, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167871,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167882,"END RequestId: f4b32d04-93a5-5135-ae0d-4cfee547a511
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167882,"REPORT RequestId: f4b32d04-93a5-5135-ae0d-4cfee547a511	Duration: 280.93 ms	Billed Duration: 757 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	Init Duration: 475.27 ms	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026167891,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167911,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167951,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167971,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026167991,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026168031,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026168031,"Processing complete: {'processed': 0, 'failed': 9, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026168033,"END RequestId: 98a4b1ad-2a9c-5039-b092-d0575c7e52fa
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026168033,"REPORT RequestId: 98a4b1ad-2a9c-5039-b092-d0575c7e52fa	Duration: 381.54 ms	Billed Duration: 865 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	Init Duration: 482.71 ms	
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026187920,"START RequestId: 2ae20ac6-2ca0-55ad-a49c-6b3c5a440f92 Version: $LATEST
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026187920,"Processing 1 records
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026187920,"JSON parsing error: Expecting value: line 1 column 1 (char 0)
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026187920,"Failed to parse message: a5145f34-6f4f-4dd3-9704-fed566c23d0c
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026187920,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026187922,"END RequestId: 2ae20ac6-2ca0-55ad-a49c-6b3c5a440f92
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026187922,"REPORT RequestId: 2ae20ac6-2ca0-55ad-a49c-6b3c5a440f92	Duration: 2.08 ms	Billed Duration: 3 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]b8a949bc104540799929397d3c67943f
+1770026544049,"START RequestId: 48168a4b-d0ea-5e08-b6b0-ebb1a8b51339 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026544061,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026544222,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026544223,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026544224,"END RequestId: 48168a4b-d0ea-5e08-b6b0-ebb1a8b51339
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026544225,"REPORT RequestId: 48168a4b-d0ea-5e08-b6b0-ebb1a8b51339	Duration: 174.75 ms	Billed Duration: 175 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026557114,"START RequestId: c15b388c-1f5e-5a9b-8d83-5976672b209f Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026557114,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026557127,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026557128,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026557129,"END RequestId: c15b388c-1f5e-5a9b-8d83-5976672b209f
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026557129,"REPORT RequestId: c15b388c-1f5e-5a9b-8d83-5976672b209f	Duration: 14.93 ms	Billed Duration: 15 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562034,"START RequestId: abe85942-2f9f-54dc-8ce0-38b857ff51b9 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562035,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562044,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562044,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562045,"END RequestId: abe85942-2f9f-54dc-8ce0-38b857ff51b9
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562045,"REPORT RequestId: abe85942-2f9f-54dc-8ce0-38b857ff51b9	Duration: 10.56 ms	Billed Duration: 11 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562319,"START RequestId: 47165163-ba96-58a9-9c13-3099c2fe0598 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562320,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562328,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562328,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562329,"END RequestId: 47165163-ba96-58a9-9c13-3099c2fe0598
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026562329,"REPORT RequestId: 47165163-ba96-58a9-9c13-3099c2fe0598	Duration: 9.51 ms	Billed Duration: 10 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026567232,"START RequestId: 11ff6936-768c-515e-ad05-08cc0efc68a7 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026567232,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026567241,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026567241,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026567243,"END RequestId: 11ff6936-768c-515e-ad05-08cc0efc68a7
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026567243,"REPORT RequestId: 11ff6936-768c-515e-ad05-08cc0efc68a7	Duration: 11.04 ms	Billed Duration: 12 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026574003,"START RequestId: f60a2e51-ba24-5cf7-98c3-4fabc2a09b49 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026574004,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026574021,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026574021,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026574023,"END RequestId: f60a2e51-ba24-5cf7-98c3-4fabc2a09b49
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026574023,"REPORT RequestId: f60a2e51-ba24-5cf7-98c3-4fabc2a09b49	Duration: 19.36 ms	Billed Duration: 20 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026577392,"START RequestId: 276543f6-dbf0-537d-bd54-220ca388f979 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026577392,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026577401,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026577401,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026577403,"END RequestId: 276543f6-dbf0-537d-bd54-220ca388f979
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026577403,"REPORT RequestId: 276543f6-dbf0-537d-bd54-220ca388f979	Duration: 10.55 ms	Billed Duration: 11 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592030,"START RequestId: 8098711d-776d-5f86-b58d-10e70fe484c2 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592031,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592050,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592050,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592062,"END RequestId: 8098711d-776d-5f86-b58d-10e70fe484c2
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592062,"REPORT RequestId: 8098711d-776d-5f86-b58d-10e70fe484c2	Duration: 31.65 ms	Billed Duration: 32 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592150,"START RequestId: 733c58be-c99e-54bb-bebc-3944b117cb85 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592150,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592167,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592167,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592169,"END RequestId: 733c58be-c99e-54bb-bebc-3944b117cb85
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592169,"REPORT RequestId: 733c58be-c99e-54bb-bebc-3944b117cb85	Duration: 18.63 ms	Billed Duration: 19 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592223,"START RequestId: ad99fdd3-eced-5013-80d8-9c29946fe576 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592224,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592241,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592241,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592243,"END RequestId: ad99fdd3-eced-5013-80d8-9c29946fe576
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026592243,"REPORT RequestId: ad99fdd3-eced-5013-80d8-9c29946fe576	Duration: 19.63 ms	Billed Duration: 20 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026594031,"START RequestId: 06156bf7-96c7-58ec-a94a-0a0dee497ea9 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026594031,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026594041,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026594041,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026594043,"END RequestId: 06156bf7-96c7-58ec-a94a-0a0dee497ea9
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026594043,"REPORT RequestId: 06156bf7-96c7-58ec-a94a-0a0dee497ea9	Duration: 11.76 ms	Billed Duration: 12 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026597368,"START RequestId: 46b4c602-99ad-543e-832e-a7f8e13fc9e2 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026597369,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026597381,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026597381,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026597383,"END RequestId: 46b4c602-99ad-543e-832e-a7f8e13fc9e2
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026597383,"REPORT RequestId: 46b4c602-99ad-543e-832e-a7f8e13fc9e2	Duration: 14.39 ms	Billed Duration: 15 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026607323,"START RequestId: 84dfa024-825f-58e6-ac8e-c1defafd40a0 Version: $LATEST
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026607324,"Processing 1 records
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026607330,"START RequestId: 457bb9fb-af5f-59b8-8915-d801d7cea3bc Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026607334,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026607341,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026607341,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026607343,"END RequestId: 84dfa024-825f-58e6-ac8e-c1defafd40a0
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026607343,"REPORT RequestId: 84dfa024-825f-58e6-ac8e-c1defafd40a0	Duration: 19.64 ms	Billed Duration: 20 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]a0793e970f3a477a96f45bef838a661f
+1770026607494,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026607494,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026607496,"END RequestId: 457bb9fb-af5f-59b8-8915-d801d7cea3bc
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026607496,"REPORT RequestId: 457bb9fb-af5f-59b8-8915-d801d7cea3bc	Duration: 166.58 ms	Billed Duration: 167 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617280,"START RequestId: 12eaed7d-f9c9-5e28-955d-8c87816e03f3 Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617281,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617293,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617293,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617294,"END RequestId: 12eaed7d-f9c9-5e28-955d-8c87816e03f3
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617294,"REPORT RequestId: 12eaed7d-f9c9-5e28-955d-8c87816e03f3	Duration: 13.65 ms	Billed Duration: 14 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617408,"START RequestId: 6450b372-1947-5763-b81f-d28861e1dee3 Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617409,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617420,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617420,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617422,"END RequestId: 6450b372-1947-5763-b81f-d28861e1dee3
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026617422,"REPORT RequestId: 6450b372-1947-5763-b81f-d28861e1dee3	Duration: 13.15 ms	Billed Duration: 14 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026622521,"START RequestId: b757d76f-5287-5015-8e01-b6952a282d24 Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026622521,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026622533,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026622533,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026622534,"END RequestId: b757d76f-5287-5015-8e01-b6952a282d24
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026622534,"REPORT RequestId: b757d76f-5287-5015-8e01-b6952a282d24	Duration: 12.88 ms	Billed Duration: 13 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026632089,"START RequestId: cf63e29e-5caa-5952-ae7b-8364241ed02c Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026632089,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026632097,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026632097,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026632113,"END RequestId: cf63e29e-5caa-5952-ae7b-8364241ed02c
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026632113,"REPORT RequestId: cf63e29e-5caa-5952-ae7b-8364241ed02c	Duration: 24.21 ms	Billed Duration: 25 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026637330,"START RequestId: 7c211349-760c-57df-88aa-72b30eb28e26 Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026637330,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026637339,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026637339,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026637355,"END RequestId: 7c211349-760c-57df-88aa-72b30eb28e26
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026637355,"REPORT RequestId: 7c211349-760c-57df-88aa-72b30eb28e26	Duration: 24.82 ms	Billed Duration: 25 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026639869,"START RequestId: feb6991c-3cbc-5e8c-9383-f8e6440774c8 Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026639870,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026639879,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026639879,"Processing complete: {'processed': 0, 'failed': 1, 'alerts_triggered': 0}
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026639893,"END RequestId: feb6991c-3cbc-5e8c-9383-f8e6440774c8
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026639893,"REPORT RequestId: feb6991c-3cbc-5e8c-9383-f8e6440774c8	Duration: 23.62 ms	Billed Duration: 24 ms	Memory Size: 256 MB	Max Memory Used: 89 MB	
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026642413,"START RequestId: 63928700-32c1-5e60-a02e-e6fa4a09e28f Version: $LATEST
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026642414,"Processing 1 records
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
+1770026642433,"DynamoDB error: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+",2026/02/02/[$LATEST]f47b12f45f0249a5bfa4a3aab68e8a06
